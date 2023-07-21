@@ -4,50 +4,82 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="style.css">
+    <title>CSS_PROJECT_page_2</title>
+    <link rel="stylesheet" href="./style2.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="style2.css">
-
-   
 </head>
-<body><div class="container1">
-    <div class="head">
-    Tasks <span>Lists</span></div><span class="tt"><a href="./index2.html"><i class="fa-solid fa-circle-plus icons"> </i></a></span>
-    <div class="parent">
+<body>
   
-        <div class="child1"><a href="./index2.html" > Trip to Paris</a> <hr><br>
-        <input type="checkbox" placeholder="filled" class="box">
-        
-        <label for="checkbox" class="check">Visit Church</label><br><br>
+
+    <div class="top_nav">
+        <a href="./index2.html" style="color:black ;margin-left: 90px; ">Tasks</a>
+        <a href="./index2.html" style="color: rgb(43, 163, 210)">List</a> 
+    </div>
+    </div>
+    <!-- main div -->
+    <div class="con">
+        <a href="second.html">
+            <span class="top_nav_1">
+                <a href="./index2.html"><i class="fa-solid fa-circle-plus"></i></a>
+            </span>
+        </a>
     
-        <input type="checkbox" placeholder="filled" class="box1">
-        <label for="checkbox" class="aria" >Shopping</label>
+        <div class="cards">
+
+            <a href="./index_2.html">
+                <div class="card">
+                
+                    <p>Trip to Paris</p>
+                    <hr>
+                    <input type="checkbox" class="check" checked>&nbsp;&nbsp;<span class="data">Visit Chruch</span><br>
+                    <input type="checkbox" class="c2" onclick="return false"> <span
+                        style="font-size:19px ;color: black;">Shopping</span>
+            
+                </div>
+            </a>
+            <a href="./index2.html">
+                <div class="card">
+                
+                    <p>My To Do List</p>
+                    <hr>
+                    <input type="checkbox" class="check" checked>&nbsp;&nbsp;<span class="data">Visit
+                        Supermarket</span><br>
+                    <input type="checkbox" class="c2" onclick="return false"> <span
+                        style="font-size:19px ;color: black;">Buy Vegitables</span>
     
-    </div>
-        <div class="child2">My To Do List  <hr> <br><input type="checkbox" placeholder="filled" class="box">
-        
-            <label for="checkbox" class="check">Visit SuperMarket</label><br><br>
-        
-            <input type="checkbox" placeholder="filled" class="box1">
-            <label for="checkbox" class="aria" >Buy Vegetables</label>
+                </div>
+            </a>
+            <a href="./index2.html">
+                <div class="card">
+                
+                    <p>Movies I will Watch</p>
+                    <hr>
+                    <input type="checkbox" class="check" checked>&nbsp;&nbsp;<span class="data">Stranger Things
+                        4</span><br>
+                    <input type="checkbox" class="c2" onclick="return false"> <span
+                        style="font-size:19px ; color: black;">Avengers Endgame</span>
+
+                </div>
+            </a>
+           
         </div>
-      
-        <div class="child4">Daily Morning Routine for...  <hr><br> <input type="checkbox" placeholder="filled" class="box">
-        
-            <label for="checkbox" class="check">Wake Up At 6 AM</label><br><br>
-        
-            <input type="checkbox" placeholder="filled" class="box1">
-            <label for="checkbox" class="aria" >Sleep At 10 PM</label>
-        </div>
-        </div>
-       
     </div>
-    <div class="container2">
-          <span><a href="./index.html"><i class="fa-sharp fa-solid fa-circle-arrow-left"></i></span> <span>Back </span> </a><p>Add New Task</p><hr>
-        <input type="text" placeholder="learn c++" class="task"><br><br>
-    <button>  <a href="./index3.html"> +Add task</a>
-    </button>
-    </div>
+
+
+
+ 
+    <div class="con1"></div>
+  <center">
+       <a href="index3.html">
+   <div class="middle">
+      <div><p class="first_1">Add New Task</p><i class="fa fa-times ri" aria-hidden="true"></i></div> 
+       <hr>
+       <input type="text" class="box" placeholder="Learn C++" id="input_a">
+       <button class="btn"> + &nbsp; Add Task</button>
+   </div>
+</a>
+</center> 
+
+  
 </body>
 </html>
